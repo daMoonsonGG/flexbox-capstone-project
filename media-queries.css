@@ -1,0 +1,36 @@
+@media (max-width: 48em) {
+    .top-nav-bar-wrapper .home-link {
+        text-align: left;
+    }
+    .top-nav-bar-wrapper .toggle i {
+        color: black;
+    }
+    .top-nav-bar-wrapper.active .toggle {
+        background: #9e0d0d;
+    }
+    .top-nav-bar-wrapper.active .toggle i {
+        color: white;
+    }
+    .top-nav-bar-wrapper.active div {
+        display: block;
+    }
+}
+@media (min-width: 48em) {
+    .top-nav-bar-wrapper {
+        display: flex;
+    }
+    .top-nav-bar-wrapper div {
+        display: flex;
+    }
+    .link {
+        width: auto;
+    }
+    .left-links,
+    .right-link {
+    display: flex;
+    flex: 1;
+    }
+    .right-link {
+    justify-content: flex-end;
+    }
+}

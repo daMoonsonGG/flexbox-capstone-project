@@ -1,0 +1,46 @@
+html {
+    font-family: 'Oswald', sans-serif;
+}
+body {
+    margin: 0px;
+}
+.top-nav-bar-wrapper {
+    background: #db1515;
+}
+.top-nav-bar-wrapper .toggle i {
+    color: transparent;
+}
+.top-nav-bar-wrapper a {
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
+.top-nav-bar-wrapper .toggle,
+.top-nav-bar-wrapper .home-link {
+    display: inline-block;
+}
+.top-nav-bar-wrapper .toggle {
+    padding: 1em;
+    color: black;
+}
+.top-nav-bar-wrapper .home-link {
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    padding: 1em;
+    width: 10em;
+}
+.top-nav-bar-wrapper div {
+    display: none;
+}
+.link {
+    display: block;
+    background: #9e0d0d;
+    text-align: center;
+    padding: 1em;
+}
+.link:hover {
+    background-color: white;
+    color: midnightblue;
+    }

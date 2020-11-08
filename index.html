@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox Capston Project</title>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.css" integrity="sha512-f73UKwzP1Oia45eqHpHwzJtFLpvULbhVpEJfaWczo/ZCV5NWSnK4vLDnjTaMps28ocZ05RbI83k2RlQH92zy7A==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="media-queries.css">
+</head>
+<body>
+    <div class="top-nav-bar-wrapper">
+        <a href="#" class="toggle" id="barsIcon">
+            <i class="fas fa-bars"></i>
+        </a>
+        <a href="#" class="home-link">MyName</a>
+        <div class="left-links">
+            <a href="#" class="link">Link 1</a>
+            <a href="#" class="link">Link 2</a>
+        </div>
+        <div class="right-link">
+            <a href="#" class="link">Link 3</a>
+        </div>
+    </div>
+</body>
+<script>
+    const barsIcon = document.querySelector('#barsIcon');
+    barsIcon.addEventListener('click', (e) => {
+        barsIcon.parentElement.classList.toggle('active');
+    })
+</script>
+</html>
